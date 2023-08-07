@@ -24,6 +24,9 @@ display: grid;
 grid-template-columns: 1fr;
 gap: 30px;
 border-radius: 20em;
+z-index: 999;
+border-radius: 20px;
+
 }
 
 .eliminar2{
@@ -672,6 +675,8 @@ text-align: center;
 width: 70%;
 padding: 10px 0;
 border-radius: 5px;
+width: 92%;
+padding: 6px 0px;
 }
 
 
@@ -1167,6 +1172,8 @@ flex-direction: column;
     width: 90%;
     border-radius: 5px;
     padding: 5px 0;
+    width: 92%;
+    padding: 6px 0px;
 }
 
 .card_fondo5 h2 a, .card_fondo6 h2 a{
@@ -2158,6 +2165,7 @@ flex-direction: row;
 .div_lista_carrito{
     width: 50%;
     right: 20px;
+    top: 84px;
 }
 
 
