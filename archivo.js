@@ -1,3 +1,5 @@
+$(".div_buscador").hide();
+
 $(document).ready(function () {
     
 
@@ -9,10 +11,11 @@ $(document).ready(function () {
 });
 
 
-
 $(".div_buscador").hide();
 
-
+/*
+$("#fondo_buscador").hide();
+*/
 $(".buscador").click(function (e) { 
     e.preventDefault();
     

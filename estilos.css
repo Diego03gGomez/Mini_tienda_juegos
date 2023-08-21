@@ -184,11 +184,20 @@ display: flex;
 
 
 
+#fondo_buscador{
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    width: 90%;
+    margin: auto;
+    display: none;
+}
 
 .div_buscador{
     background-color: #060620;
+
     position: absolute;
-    width: 85%;
+    width: 81%;
     top: 70px;
     text-align: center;
     display: flex;
@@ -2219,6 +2228,14 @@ flex-direction: row;
     gap: 20px;
 }
 
+.div_buscador{
+    width: 90%;
+}
+
+
+.cont_sign input{
+    width: 100%;
+}
 
 
 }
@@ -2232,4 +2249,74 @@ flex-direction: row;
     .cont1 h1{
         font-size: 56px;
     }
+
+.producto_comprado{
+    grid-template-columns: 1fr;
+}
+
+    
+}
+
+
+@media (max-width:350px){
+.cont1 h1{
+    font-size: 28px;
+}
+.user{
+    display: none;
+}
+
+.desc_fondo4 a{
+    padding: 10px 24px;
+}
+
+.nav2 :last-child{
+    display: none;
+} 
+
+.cont2{
+    grid-template-columns: 1fr;
+}
+
+
+.cont_fondo2{
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.desc_cards{
+    font-size: 15px;
+}
+
+.cont_fondo3{
+    grid-template-columns: 1fr;
+}
+
+.titulo_fondo3 h1{
+    text-align: center;
+}
+
+.cont_fondo5{
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.cont_fondo6{
+    grid-template-columns: 1fr;
+    gap: 86px;
+}
+
+.links_footer{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.derechos ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: auto;
+    width: 90%;
+}
+
 }
