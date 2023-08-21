@@ -1,7 +1,11 @@
-$(".div_buscador").hide();
+
 
 $(document).ready(function () {
-    
+
+
+$("#carga").fadeOut(600);
+
+    $(".div_buscador").hide();
 
 
 
@@ -10,15 +14,19 @@ $(document).ready(function () {
     $(this).html(`<button class="cerrar" >cerrar</button>`)
 });
 
-
+/*
 $(".div_buscador").hide();
-
+*/
 /*
 $("#fondo_buscador").hide();
 */
+
+
+
 $(".buscador").click(function (e) { 
     e.preventDefault();
     
+   
 $(".div_buscador").slideDown();
 
 
